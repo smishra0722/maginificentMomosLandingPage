@@ -1,0 +1,56 @@
+.section-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 1440px;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+.section-about .section-image {
+  width: 50%;
+}
+
+.section-about .section-image img {
+  width: 100%;
+  height: auto;
+}
+
+.section-about .section-desc {
+  width: 50%;
+  margin-left: 3rem;
+  margin: auto 3rem;
+}
+
+.section-about .section-desc h1 {
+  font-family: 'australia-font';
+  font-size: 3rem;
+  color: red;
+  margin-bottom: 2rem;
+}
+
+.section-about .section-desc p {
+  margin-bottom: .5rem;
+}
+
+.go-up {
+  position: fixed;
+  right: 3rem;
+  bottom: 3rem;
+}
+
+.go-up a {
+  color: black;
+  font-size: 3rem;
+}
+
+.go-up i {
+  border: 1px solid white;
+  border-radius: 100%;
+}
+/*# sourceMappingURL=about.css.map */

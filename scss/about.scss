@@ -1,0 +1,51 @@
+.section-about{
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+
+
+    .section-image{
+        width: 50%;
+
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .section-desc{
+        width: 50%;
+        margin-left: 3rem;
+        margin: auto 3rem;
+
+        h1{
+            font-family: 'australia-font';
+            font-size: 3rem;
+            color: red;
+            margin-bottom: 2rem;
+        }
+        p{
+            margin-bottom: .5rem;
+        }
+    }
+}
+
+.go-up{
+    a{
+        color: black;
+    font-size: 3rem;
+    }
+    
+    
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+
+    i{
+        border: 1px solid white;
+        border-radius: 100%;
+    }
+}
